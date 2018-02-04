@@ -1,0 +1,43 @@
+{
+  "name": "serverless-web-template",
+  "version": "0.0.1",
+  "description": "Serverless service template",
+  "main": "handler.js",
+  "scripts": {
+    "test": "exit 0",
+    "dev": "serverless offline start",
+    "deploy-dev": "serverless deploy -s dev -v",
+    "deploy-prod": "serverless deploy -s prod -v"
+  },
+  "author": "Shimon Tolts <shimon@datree.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-source-map-support": "^1.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "serverless-offline": "^3.16.0",
+    "serverless-webpack": "^4.2.0",
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser-node6": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "serverless-http": "^1.5.3",
+    "serverless-plugin-tracing": "^2.0.0",
+    "source-map-support": "^0.4.18"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
