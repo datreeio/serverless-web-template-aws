@@ -1,4 +1,4 @@
-# Serverless Web Template - datree.io
+# Serverless Web Template
 
 ## The template is based on
 
