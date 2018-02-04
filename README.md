@@ -25,7 +25,7 @@
 
 ## Development
 
-There are 2 example enpoints under the `handler.js` file (run the local dev server `$ npm run dev`)
+There are 2 example endpoints under the `handler.js` file (run the local dev server `$ npm run dev`)
 
 ### GET /
 
