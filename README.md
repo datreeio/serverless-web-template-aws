@@ -18,8 +18,8 @@
 ## Usage
 
 * `$ npm run dev` (run serverless-offline for local development)
-* `$ npm deploy-dev` (deploys the service to dev)
-* `$ npm deploy-prod` (deploys the service to prod)
+* `$ npm run deploy-dev` (deploys the service to dev)
+* `$ npm run deploy-prod` (deploys the service to prod)
 
 (using the AWS credentials in ~/.aws/credentials)
 
