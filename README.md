@@ -1,5 +1,7 @@
 # Serverless Web Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/datreeio/serverless-web-template-aws.svg)](https://greenkeeper.io/)
+
 ## The template is based on
 
 * [Node.js](https://nodejs.org/) version 6.10.2 (AWS Lambda version)
